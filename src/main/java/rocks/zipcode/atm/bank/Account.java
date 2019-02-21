@@ -1,9 +1,12 @@
 package rocks.zipcode.atm.bank;
 
+import javafx.scene.control.Alert;
+
 /**
  * @author ZipCodeWilmington
  */
 public abstract class Account {
+   // Alert alert = new Alert(Alert.AlertType.WARNING);
 
     private AccountData accountData;
 
